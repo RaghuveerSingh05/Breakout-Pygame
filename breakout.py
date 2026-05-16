@@ -132,7 +132,7 @@ class Brick:
 class Game:
     def __init__(self):
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-        pygame.display.set_caption("Breakout - Unbreakable Blocks & Timer")
+        pygame.display.set_caption("Breakout")
         self.clock = pygame.time.Clock()
         self.font = pygame.font.Font(None, 36)
         self.big_font = pygame.font.Font(None, 48)
